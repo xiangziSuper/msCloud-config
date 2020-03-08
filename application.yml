@@ -12,3 +12,8 @@ spring:
   profiles: test
   application:
     name: mscloud-config-test
+---
+spring:
+  profiles: prod
+  application:
+    name: mscloud-config-prod    
