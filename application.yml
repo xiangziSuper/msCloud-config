@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: mscloud-config-dev
+---
+spring:
+  profiles: test
+  application:
+    name: mscloud-config-test
